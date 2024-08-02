@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+body, html {
+    font-family:"Noto Serif Display", serif;;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif; */
+}
+
+.background-image {
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url('/assets/images/texture.png');
+    background-size: cover;
+    background-position: center;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.overlay {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('/assets/images/toolbar1.png');
+    background-size: cover;
+    background-position: center;
+     /* padding-top: 56.25%;  */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    /* margin-top: -21%; */
+}
+
+.navbar {
+    width: 100%;
+    height: 7em;
+    background-color:#f1e2c1; /* Semi-transparent background */
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 17%;
+    position: relative;
+    z-index: 999;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+.navbar li {
+    display: flex;
+}
+
+.navbar a {
+    color:#97633d;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbarCart{
+    display: flex;
+    gap: 20px;
+}
+button{
+       height: 30px;
+       width: 80px;
+       border-radius: 20px;
+       border-style: none;
+       background-color:#97633d;
+       color: white;
+
+}
+.linestyleImage{
+                   height: 420px; 
+                       /* padding-left: 20%; */
+
+}
+.lineImage{
+    margin-top: -5%;
+}
+.photoSection{
+        
+    margin-top: -9%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.photoSection h1{
+    font-size: 64px;
+letter-spacing: -2px;
+line-height: 67px;
+color: #fefefe;
+font-style: italic;
+font-family: "Noto Serif Display";
+text-align: center;
+margin: 0;
+}
+.photoSection p{
+    font-size: 24px;   
+    line-height: 2px;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Noto Sans Mono";
+    text-align: center;
+
+}
+.photoSection h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Noto Sans Mono";
+    /* padding-left: 5%; */
+    text-align: center;
+}
+.groupImage{
+ margin-top: -8%;
+ position: relative;
+ z-index: 999;
+}
+.paperImage{
+    position: absolute;
+    left: -4%;
+    height: 570px;
+    width: 105%;
+    z-index: -1;
+    margin-top: -2%;
+}
+.paperImages{
+    position: absolute;
+    top: -70px;
+    left: 318px;
+    z-index: -1;
+}
+.date{
+        position: absolute;
+        right: 37px;
+        top: 52px;
+}
+.tape{
+    position: absolute;
+    top: -48px;
+    left: 0;
+    height: 91px;
+}
+.arrivalpass{
+    position: absolute;
+    top:48%;
+    right: -115px;
+    opacity: 0.8;
+}
+.whiteStripsdiv{
+    position: relative;
+    
+}
+.whiteStrips{
+       width: 100%;
+       margin-top: -10%;
+      position: absolute;
+}
+.numberinStrips{
+        position: absolute;
+        left: 196px;
+        top: -44px;
+}
+.bookButton{
+    position: absolute;
+    top: 0;
+}
+.bookButton button{
+    color: #97633d;
+    width: 233px;
+    font-weight: 600;
+    background-color: #fbd696;
+    height: 39px;
+    position: absolute;
+    left: 212px;
+    top: -53px;
+}
+.photoshootKeyword{
+     position: absolute;
+     left: 217px;
+     top: -35px;    
+}
+.photoshootKeyword p,.happyakeyword p
+{
+        font-size: 31px;
+        color: #9b6e4b;
+        font-weight: 400;
+        font-family:"Brush Script MT";
+
+}
+.numberinStripss{
+   position: absolute;
+   top: -50px;
+   left: 47%;
+
+
+}
+.happyakeyword
+{
+    position: absolute; 
+    top: -40px;
+    left: 47%;
+}
+.paperCalender{
+    position: absolute;
+    left: 51%;
+    top: -110px;
+}
+.loveTag{
+    position: absolute;
+    top: 10px;
+    left: 54%;
+}
+.loveTag p{
+    font-size: 25px;
+    font-family:"Brush Script MT";
+}
+.bottomWhitetape{
+    position: absolute;
+    bottom: -37px;
+    right: 149px;
+    height: 91px;
+    z-index: 999;
+}
+.section{
+  position: relative;
+  /* border: 1px solid black; */
+  margin-top: 6%;
+}
+.designSection{
+    margin: 15% 0 0 8%;
+}
+.imageSection{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.bookImage{
+    position: absolute;
+    top: 33%;
+    left: 10.5%;
+}
+.readMore{
+    position: absolute;
+    top: 43%;
+    left: 13%;
+}
+.readMore p{
+       color: #f1e2c1;
+       font-size: 13px;
+}
+.portflolio{
+    position: absolute;
+    bottom: -12px;
+    right: 16%;
+}
+.portflolio p{
+    color:#97633d;
+    font-size: 90px;
+    font-family:"Brush Script MT";
+}
+
+
+
+
+
+

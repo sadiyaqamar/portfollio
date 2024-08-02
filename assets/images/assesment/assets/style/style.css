@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Noto Serif Display", serif;
+    margin:0px;
+    padding: 0px;
+}
+body{
+       width: 100%;
+       height: 100%;
+
+}
+.headerSection
+{
+   background-image: url(/assets/images/texture.png);
+/* Replace 'path/to/your/image.jpg' with your image file path */
+    background-size: cover; /* Ensures the background image covers the entire header section */
+    background-position: center; /* Centers the background image */
+    height: 100vh; 
+}
+.navigationBar img{
+    position: relative;
+}
+.navBar{
+  
+      position: absolute;
+      top: 20%;
+      border: 1px solid black;
+   
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.unorder ul {
+    display: flex;
+     justify-content: space-evenly;
+}
+
+.toggleButton{
+
+}
+.navBar li{
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+}
